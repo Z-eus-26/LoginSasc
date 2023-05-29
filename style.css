@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --font1: Arial, Helvetica, sans-serif;
+    --verde: #01B574;
+}
+
+body {
+    background-image: url(img/Design\ sem\ nome.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+header {
+background: rgba(255, 255, 255, 0.01);
+backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(10px);
+}
+
+.posicionamento_header {
+    width: 1400px auto;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.posicionamento_header img {
+    width: 70px;
+}
+.container {
+    height: 700px;
+    width: 1400px auto;
+    margin: 0 auto;
+    font-family: var(--font1);
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.container_conteudo {
+
+    background: linear-gradient(114.61deg, rgba(255, 255, 255, 0.052) 1.08%, rgba(255, 255, 255, 0.117) 99.26%);
+    /*border: 1px solid rgba(255, 255, 255, 0.8);
+    box-shadow: 30px 30px 60px rgba(0, 0, 0, 0.5);*/
+    backdrop-filter: blur(10px);
+    border-radius: 60px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 60px;
+    padding-left: 110px;
+    padding-right: 110px;
+    padding-bottom: 60px;
+    width: 30%;
+    margin-left: 60px;
+}
+
+h2 {
+    margin: 20px;
+    color: var(--verde);
+    font-size: 20px;
+    font-family: var(--font1);
+}
+
+.titulo_2 {
+    text-align:center;
+    color: #8F8F8F;
+}
+
+.input_usuario {
+    color: white;
+    text-align: center;
+    margin: 30px;
+    background-color:#393939;
+    border: none;
+    height:40px;
+    width: 300px;
+    border-radius: 30px;
+}
+.input_login {
+    color: white;
+    text-align: center;
+    margin: 5px;
+    background-color:#393939;
+    border: none;
+    height:40px;
+    width: 300px;
+    border-radius: 30px;
+}
+
+.container a {
+
+    margin: 10px;
+    text-decoration: none;
+    color: #09905F;
+    font-size: 10px;
+    display: flex;
+    position: relative;
+    left: 40%;
+}
+button {
+    cursor: pointer;
+    margin: 20px;
+    color: white;
+    padding: 10px 30px;
+    background-color: #CF4B83;
+    border-radius: 8px;
+    font-family: var(--font2);
+    border: solid #CF4B83;
+}
+
+.container_conteudo_dir {
+    padding: 50px;
+    margin: 300px;
+    height: 700px;
+    width: 1400px auto;
+}
+
+.container_conteudo_dir_texto {
+    width: 800px;
+    padding: 30px;
+    color: white;
+    font-size: 50px;
+}
+
+.container_conteudo_dir img {
+    width: 500px;
+    height: 400px;
+    margin-top: -105px;
+    margin-left: 100px;
+}
+
+label {
+    margin-top: -2px;
+    position: relative ;
+    width: 120px ;
+    height: 70px;
+    cursor: pointer;
+}
+
+label input {
+    position: relative;
+    z-index: 1;
+    appearance: none;
+}
+
+label span {
+    position: absolute;
+    left: 70px;
+    width: 40px;
+    height: 23px;
+    background: green;
+    border-radius: 80px;
+    transition: 0,5s;
+}
+
+label input:checked ~ span{
+    background: #CF4B83;
+}
+label span i {
+    transition: 0,5s;
+    top: 3.8px;
+    left: 2px;
+    position: absolute;
+    width: 20px;
+    height: 15px;
+    background: white;
+    border-radius: 50%;
+}
+
+label input:checked ~ span i {
+    left: 18px;
+    background: #393939;
+}
