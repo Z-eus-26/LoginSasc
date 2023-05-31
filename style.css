@@ -9,7 +9,7 @@
 }
 
 body {
-    background-image: url(img/Design\ sem\ nome.png);
+    background-image: url(img/background1.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -22,20 +22,22 @@ backdrop-filter: blur(10px);
 }
 
 .posicionamento_header {
-    width: 1400px auto;
+    width: 1400px;
+    height: 80px;
     margin: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 80px;
+
 }
 
 .posicionamento_header img {
     width: 70px;
 }
+
 .container {
-    height: 700px;
     width: 1400px auto;
+    height: 700px;
     margin: 0 auto;
     font-family: var(--font1);
     display: flex;
@@ -105,6 +107,7 @@ h2 {
     position: relative;
     left: 40%;
 }
+
 button {
     cursor: pointer;
     margin: 20px;
@@ -131,10 +134,10 @@ button {
 }
 
 .container_conteudo_dir img {
-    width: 500px;
+    width: 600px;
     height: 400px;
     margin-top: -105px;
-    margin-left: 100px;
+    margin-left: 130px;
 }
 
 label {
